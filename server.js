@@ -13,7 +13,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
-// Ruta raíz que devuelve el formulario HTML
+// Ruta raíz
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
@@ -48,5 +48,5 @@ app.post('/process-image', async (req, res) => {
   
   
   app.listen(port, () => {
-    console.info(`Servidor corriendo en ${protocol}://${host}:${port} | el proceso asociado al servidor es el numero ${process.pid}`);
+    console.info(`Servidor corriendo en ${protocol}://${host}:${port} | el proceso asociado al servidor es el ${process.pid}`);
 });
