@@ -13,12 +13,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yistler/blackWhite.git"
+    "url": "git+https://github.com/IAGA79/Desafio_Black_White"
   },
   "author": "Luis Berrios, Ivan Guerrero, Yistler Duran",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yistler/blackWhite/issues"
+    "url": "https://github.com/IAGA79/Desafio_Black_White/issues"
   },
-  "homepage": "https://github.com/Yistler/blackWhite#readme"
+  "homepage": "https://github.com/IAGA79/Desafio_Black_White#readme"
 }
